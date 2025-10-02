@@ -2,15 +2,27 @@ import { useState } from "react";
 
 function Form() {
   const [formData, setFormData] = useState({
+    // Personal Information
     firstName: "",
     middleName: "",
     lastName: "",
     email: "",
-    location: "",
-    skills: "",
-    education: "",
     age: "",
-    sector: "",
+    gender: "",
+
+    // Education
+    collegeName: "",
+    education: "",
+    cgpa: "",
+
+    // Skills
+    technicalSkills: "",
+    softSkills: "",
+    specialization: "",
+
+    // Preferences
+    preferredSector: "",
+    preferredLocation: "",
   });
 
   const handleChange = (e) => {
@@ -25,141 +37,259 @@ function Form() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 p-4">
-      <div className="w-full max-w-4xl bg-white shadow-lg rounded-xl p-6">
-        <h2 className="text-3xl font-bold mb-6 text-center text-blue-700">
+    <div className="min-h-screen flex items-center justify-center bg-gray-50 p-6">
+      <div className="w-full max-w-5xl bg-white shadow-lg rounded-xl p-8">
+        <h2 className="text-4xl font-extrabold mb-10 text-center text-blue-700 tracking-wide">
           Candidate Profile Form
         </h2>
 
-        <form
-          onSubmit={handleSubmit}
-          className="grid grid-cols-1 md:grid-cols-2 gap-4"
-        >
-          {/* First Name */}
-          <div className="flex flex-col">
-            <label className="font-medium mb-1">First Name</label>
-            <input
-              type="text"
-              name="firstName"
-              value={formData.firstName}
-              onChange={handleChange}
-              className="border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
-              required
-            />
+        <form onSubmit={handleSubmit} className="space-y-12">
+          {/* ============ Personal Information ============ */}
+          <div>
+            <h3 className="text-2xl font-bold text-gray-800 mb-6 border-l-4 border-blue-600 pl-3 bg-blue-50 py-2 rounded">
+              Personal Information
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="flex flex-col">
+                <label className="font-medium mb-1">First Name</label>
+                <input
+                  type="text"
+                  name="firstName"
+                  value={formData.firstName}
+                  onChange={handleChange}
+                  className="border rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-400"
+                  required
+                />
+              </div>
+
+              <div className="flex flex-col">
+                <label className="font-medium mb-1">Middle Name</label>
+                <input
+                  type="text"
+                  name="middleName"
+                  value={formData.middleName}
+                  onChange={handleChange}
+                  className="border rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-400"
+                />
+              </div>
+
+              <div className="flex flex-col">
+                <label className="font-medium mb-1">Last Name</label>
+                <input
+                  type="text"
+                  name="lastName"
+                  value={formData.lastName}
+                  onChange={handleChange}
+                  className="border rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-400"
+                  required
+                />
+              </div>
+
+              <div className="flex flex-col">
+                <label className="font-medium mb-1">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  className="border rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-400"
+                  required
+                />
+              </div>
+
+              <div className="flex flex-col">
+                <label className="font-medium mb-1">Age</label>
+                <input
+                  type="number"
+                  name="age"
+                  value={formData.age}
+                  onChange={handleChange}
+                  className="border rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-400"
+                  min="18"
+                />
+              </div>
+
+              <div className="flex flex-col">
+                <label className="font-medium mb-1">Gender</label>
+                <select
+                  name="gender"
+                  value={formData.gender}
+                  onChange={handleChange}
+                  className="border rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-400"
+                >
+                  <option value="">-- Select Gender --</option>
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+            </div>
           </div>
 
-          {/* Middle Name */}
-          <div className="flex flex-col">
-            <label className="font-medium mb-1">Middle Name</label>
-            <input
-              type="text"
-              name="middleName"
-              value={formData.middleName}
-              onChange={handleChange}
-              className="border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
-            />
+          <hr className="border-gray-300" />
+
+          {/* ============ Education ============ */}
+          <div>
+            <h3 className="text-2xl font-bold text-gray-800 mb-6 border-l-4 border-green-600 pl-3 bg-green-50 py-2 rounded">
+              Education
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="flex flex-col">
+                <label className="font-medium mb-1">College Name</label>
+                <input
+                  type="text"
+                  name="collegeName"
+                  value={formData.collegeName}
+                  onChange={handleChange}
+                  className="border rounded-lg px-3 py-2 focus:ring-2 focus:ring-green-400"
+                  placeholder="e.g., IIT Bombay"
+                />
+              </div>
+
+              <div className="flex flex-col">
+                <label className="font-medium mb-1">Education</label>
+                <select
+                  name="education"
+                  value={formData.education}
+                  onChange={handleChange}
+                  className="border rounded-lg px-3 py-2 focus:ring-2 focus:ring-green-400"
+                >
+                  <option value="">-- Select Education --</option>
+                  <option value="B.E">B.E</option>
+                  <option value="B.Tech">B.Tech</option>
+                  <option value="BCA">BCA</option>
+                  <option value="M.E">M.E</option>
+                  <option value="M.Tech">M.Tech</option>
+                  <option value="MCA">MCA</option>
+                  <option value="MBA">MBA</option>
+                </select>
+              </div>
+
+              <div className="flex flex-col">
+                <label className="font-medium mb-1">Last Year CGPA</label>
+                <input
+                  type="number"
+                  name="cgpa"
+                  step="0.01"
+                  value={formData.cgpa}
+                  onChange={handleChange}
+                  className="border rounded-lg px-3 py-2 focus:ring-2 focus:ring-green-400"
+                />
+              </div>
+            </div>
           </div>
 
-          {/* Last Name */}
-          <div className="flex flex-col">
-            <label className="font-medium mb-1">Last Name</label>
-            <input
-              type="text"
-              name="lastName"
-              value={formData.lastName}
-              onChange={handleChange}
-              className="border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
-              required
-            />
+          <hr className="border-gray-300" />
+
+          {/* ============ Skills ============ */}
+          <div>
+            <h3 className="text-2xl font-bold text-gray-800 mb-6 border-l-4 border-purple-600 pl-3 bg-purple-50 py-2 rounded">
+              Skills
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="flex flex-col">
+                <label className="font-medium mb-1">Technical Skills</label>
+                <input
+                  type="text"
+                  name="technicalSkills"
+                  value={formData.technicalSkills}
+                  onChange={handleChange}
+                  placeholder="e.g., React, Python"
+                  className="border rounded-lg px-3 py-2 focus:ring-2 focus:ring-purple-400"
+                />
+              </div>
+
+              <div className="flex flex-col">
+                <label className="font-medium mb-1">Soft Skills</label>
+                <input
+                  type="text"
+                  name="softSkills"
+                  value={formData.softSkills}
+                  onChange={handleChange}
+                  placeholder="e.g., Communication, Leadership"
+                  className="border rounded-lg px-3 py-2 focus:ring-2 focus:ring-purple-400"
+                />
+              </div>
+
+              <div className="flex flex-col">
+                <label className="font-medium mb-1">Specialization</label>
+                <input
+                  type="text"
+                  name="specialization"
+                  value={formData.specialization}
+                  onChange={handleChange}
+                  placeholder="e.g., AI/ML, Cybersecurity"
+                  className="border rounded-lg px-3 py-2 focus:ring-2 focus:ring-purple-400"
+                />
+              </div>
+            </div>
           </div>
 
-          {/* Email */}
-          <div className="flex flex-col">
-            <label className="font-medium mb-1">Email</label>
-            <input
-              type="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-              className="border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
-              required
-            />
+          <hr className="border-gray-300" />
+
+          {/* ============ Preferences ============ */}
+          <div>
+            <h3 className="text-2xl font-bold text-gray-800 mb-6 border-l-4 border-orange-600 pl-3 bg-orange-50 py-2 rounded">
+              Job Preferences
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="flex flex-col">
+                <label className="font-medium mb-1">Preferred Sector</label>
+                <select
+                  name="preferredSector"
+                  value={formData.preferredSector}
+                  onChange={handleChange}
+                  className="border rounded-lg px-3 py-2 focus:ring-2 focus:ring-orange-400"
+                >
+                  <option value="">-- Select Sector --</option>
+                  <option value="IT & Software">IT & Software</option>
+                  <option value="Banking & Finance">Banking & Finance</option>
+                  <option value="Oil, Gas & Energy">Oil, Gas & Energy</option>
+                  <option value="FMCG">FMCG</option>
+                  <option value="Telecom">Telecom</option>
+                  <option value="Infrastructure & Construction">Infrastructure & Construction</option>
+                  <option value="Automotive">Automotive</option>
+                  <option value="Hospitality">Hospitality</option>
+                  <option value="Retail">Retail</option>
+                  <option value="Education">Education</option>
+                  <option value="Healthcare">Healthcare</option>
+                  <option value="Media & Entertainment">Media & Entertainment</option>
+                </select>
+              </div>
+
+              <div className="flex flex-col">
+                <label className="font-medium mb-1">Preferred Location</label>
+                <select
+                  name="preferredLocation"
+                  value={formData.preferredLocation}
+                  onChange={handleChange}
+                  className="border rounded-lg px-3 py-2 focus:ring-2 focus:ring-orange-400"
+                >
+                  <option value="">-- Select Location --</option>
+                  <option value="Bengaluru">Bengaluru</option>
+                  <option value="Hyderabad">Hyderabad</option>
+                  <option value="Pune">Pune</option>
+                  <option value="Chennai">Chennai</option>
+                  <option value="Gurugram">Gurugram</option>
+                  <option value="Mumbai">Mumbai</option>
+                  <option value="Delhi NCR">Delhi NCR</option>
+                  <option value="Ahmedabad">Ahmedabad</option>
+                  <option value="Kochi">Kochi</option>
+                  <option value="Gurgaon">Gurgaon</option>
+                  <option value="Manesar">Manesar</option>
+                  <option value="Goa">Goa</option>
+                  <option value="Jaipur">Jaipur</option>
+                  <option value="Delhi">Delhi</option>
+                </select>
+              </div>
+            </div>
           </div>
 
-          {/* Preferred Location */}
-          <div className="flex flex-col">
-            <label className="font-medium mb-1">Preferred Location</label>
-            <input
-              type="text"
-              name="location"
-              value={formData.location}
-              onChange={handleChange}
-              className="border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
-            />
-          </div>
-
-          {/* Skills */}
-          <div className="flex flex-col">
-            <label className="font-medium mb-1">Skills</label>
-            <input
-              type="text"
-              name="skills"
-              value={formData.skills}
-              onChange={handleChange}
-              placeholder="e.g., React, Python"
-              className="border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
-            />
-          </div>
-
-          {/* Education */}
-          <div className="flex flex-col">
-            <label className="font-medium mb-1">Education</label>
-            <input
-              type="text"
-              name="education"
-              value={formData.education}
-              onChange={handleChange}
-              placeholder="e.g., B.Tech CSE 3rd Year"
-              className="border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
-            />
-          </div>
-
-          {/* Age */}
-          <div className="flex flex-col">
-            <label className="font-medium mb-1">Age</label>
-            <input
-              type="number"
-              name="age"
-              value={formData.age}
-              onChange={handleChange}
-              className="border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
-            />
-          </div>
-
-          {/* Sector Interest */}
-          <div className="flex flex-col">
-            <label className="font-medium mb-1 ">Sector Interest</label>
-            <select
-              name="sector"
-              value={formData.sector}
-              onChange={handleChange}
-              className="border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
-            >
-              <option value="">-- Select Sector --</option>
-              <option value="IT">IT</option>
-              <option value="Finance">Finance</option>
-              <option value="Healthcare">Healthcare</option>
-              <option value="Education">Education</option>
-              <option value="Rural Development">Rural Development</option>
-              <option value="Others">Others</option>
-            </select>
-          </div>
-
-          {/* Submit Button (spanning two columns) */}
-          <div className="md:col-span-2 text-center mt-2">
+          {/* Submit Button */}
+          <div className="text-center">
             <button
               type="submit"
-              className="bg-blue-600 text-white px-6 py-2 rounded-lg shadow hover:bg-blue-700 transition"
+              className="bg-blue-600 text-white px-10 py-3 rounded-lg shadow-lg hover:bg-blue-700 transition transform hover:scale-105"
             >
               Submit
             </button>
