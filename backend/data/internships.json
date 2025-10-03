@@ -1,0 +1,991 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer Intern",
+    "location": "Bangalore",
+    "sector": "IT & Software",
+    "skills": ["React", "JavaScript", "CSS", "Git"]
+  },
+  {
+    "id": 2,
+    "title": "Backend Developer Intern",
+    "location": "Hyderabad",
+    "sector": "IT & Software",
+    "skills": ["Node.js", "Express", "MongoDB", "REST API"]
+  },
+  {
+    "id": 3,
+    "title": "Full Stack Developer Intern",
+    "location": "Pune",
+    "sector": "IT & Software",
+    "skills": ["React", "Node.js", "SQL", "Docker"]
+  },
+  {
+    "id": 4,
+    "title": "Data Analyst Intern",
+    "location": "Mumbai",
+    "sector": "IT & Software",
+    "skills": ["Python", "SQL", "Pandas", "Excel"]
+  },
+  {
+    "id": 5,
+    "title": "AI/ML Intern",
+    "location": "Delhi",
+    "sector": "IT & Software",
+    "skills": ["TensorFlow", "Python", "NLP", "Data Preprocessing"]
+  },
+  {
+    "id": 6,
+    "title": "Cybersecurity Intern",
+    "location": "Chennai",
+    "sector": "IT & Software",
+    "skills": ["Ethical Hacking", "Networking", "Linux", "Firewalls"]
+  },
+  {
+    "id": 7,
+    "title": "Cloud Computing Intern",
+    "location": "Noida",
+    "sector": "IT & Software",
+    "skills": ["AWS", "Azure", "Docker", "Kubernetes"]
+  },
+  {
+    "id": 8,
+    "title": "UI/UX Designer Intern",
+    "location": "Ahmedabad",
+    "sector": "IT & Software",
+    "skills": ["Figma", "Wireframing", "Prototyping", "User Research"]
+  },
+  {
+    "id": 9,
+    "title": "DevOps Intern",
+    "location": "Gurgaon",
+    "sector": "IT & Software",
+    "skills": ["CI/CD", "Jenkins", "Docker", "Kubernetes"]
+  },
+  {
+    "id": 10,
+    "title": "Blockchain Developer Intern",
+    "location": "Jaipur",
+    "sector": "IT & Software",
+    "skills": ["Solidity", "Ethereum", "Smart Contracts", "Web3.js"]
+  },
+  {
+    "id": 11,
+    "title": "Software Testing Intern",
+    "location": "Kolkata",
+    "sector": "IT & Software",
+    "skills": ["Selenium", "JUnit", "Manual Testing", "Automation"]
+  },
+  {
+    "id": 12,
+    "title": "Game Developer Intern",
+    "location": "Hyderabad",
+    "sector": "IT & Software",
+    "skills": ["Unity", "C#", "3D Modelling", "Blender"]
+  },
+  {
+    "id": 13,
+    "title": "Android Developer Intern",
+    "location": "Bangalore",
+    "sector": "IT & Software",
+    "skills": ["Kotlin", "Java", "Firebase", "Android Studio"]
+  },
+  {
+    "id": 14,
+    "title": "iOS Developer Intern",
+    "location": "Pune",
+    "sector": "IT & Software",
+    "skills": ["Swift", "Xcode", "Core Data", "UI Kit"]
+  },
+  {
+    "id": 15,
+    "title": "Big Data Intern",
+    "location": "Mumbai",
+    "sector": "IT & Software",
+    "skills": ["Hadoop", "Spark", "Scala", "Kafka"]
+  },
+  {
+    "id": 16,
+    "title": "Web Developer Intern",
+    "location": "Delhi",
+    "sector": "IT & Software",
+    "skills": ["HTML", "CSS", "JavaScript", "PHP"]
+  },
+  {
+    "id": 17,
+    "title": "AI Chatbot Developer Intern",
+    "location": "Noida",
+    "sector": "IT & Software",
+    "skills": ["Python", "Dialogflow", "NLP", "Flask"]
+  },
+  {
+    "id": 18,
+    "title": "Computer Vision Intern",
+    "location": "Chennai",
+    "sector": "IT & Software",
+    "skills": ["OpenCV", "Python", "Deep Learning", "Image Processing"]
+  },
+  {
+    "id": 19,
+    "title": "AR/VR Developer Intern",
+    "location": "Hyderabad",
+    "sector": "IT & Software",
+    "skills": ["Unity", "C#", "ARKit", "ARCore"]
+  },
+  {
+    "id": 20,
+    "title": "Technical Support Intern",
+    "location": "Kolkata",
+    "sector": "IT & Software",
+    "skills": ["Troubleshooting", "Networking", "Linux", "Customer Support"]
+  },
+
+  {
+    "id": 21,
+    "title": "Finance Analyst Intern",
+    "location": "Mumbai",
+    "sector": "Banking & Finance",
+    "skills": ["Excel", "Financial Modelling", "Accounting", "R"]
+  },
+  {
+    "id": 22,
+    "title": "Investment Banking Intern",
+    "location": "Delhi",
+    "sector": "Banking & Finance",
+    "skills": ["Valuation", "Pitch Books", "Financial Analysis", "Excel"]
+  },
+  {
+    "id": 23,
+    "title": "Accounting Intern",
+    "location": "Pune",
+    "sector": "Banking & Finance",
+    "skills": ["Tally", "Excel", "Bookkeeping", "Taxation"]
+  },
+  {
+    "id": 24,
+    "title": "Risk Management Intern",
+    "location": "Mumbai",
+    "sector": "Banking & Finance",
+    "skills": ["Risk Modelling", "Credit Analysis", "Data Analytics"]
+  },
+  {
+    "id": 25,
+    "title": "Stock Market Intern",
+    "location": "Bangalore",
+    "sector": "Banking & Finance",
+    "skills": ["Trading", "Equity Research", "Excel", "Finance"]
+  },
+  {
+    "id": 26,
+    "title": "Financial Consultant Intern",
+    "location": "Ahmedabad",
+    "sector": "Banking & Finance",
+    "skills": ["Client Advisory", "Finance Planning", "Communication"]
+  },
+  {
+    "id": 27,
+    "title": "Insurance Analyst Intern",
+    "location": "Chennai",
+    "sector": "Banking & Finance",
+    "skills": ["Insurance", "Actuarial Science", "Excel"]
+  },
+  {
+    "id": 28,
+    "title": "Corporate Finance Intern",
+    "location": "Hyderabad",
+    "sector": "Banking & Finance",
+    "skills": ["M&A", "Valuation", "DCF Analysis"]
+  },
+  {
+    "id": 29,
+    "title": "Tax Consultant Intern",
+    "location": "Gurgaon",
+    "sector": "Banking & Finance",
+    "skills": ["GST", "Income Tax", "Tally", "Excel"]
+  },
+  {
+    "id": 30,
+    "title": "Wealth Management Intern",
+    "location": "Noida",
+    "sector": "Banking & Finance",
+    "skills": ["Financial Advisory", "Mutual Funds", "Portfolio Management"]
+  }
+,
+  {
+    "id": 31,
+    "title": "Treasury Intern",
+    "location": "Kolkata",
+    "sector": "Banking & Finance",
+    "skills": ["Cash Flow Management", "Treasury Tools", "Financial Analysis"]
+  },
+  {
+    "id": 32,
+    "title": "Credit Analyst Intern",
+    "location": "Delhi",
+    "sector": "Banking & Finance",
+    "skills": ["Credit Scoring", "Risk Analysis", "Excel"]
+  },
+  {
+    "id": 33,
+    "title": "Loan Processing Intern",
+    "location": "Chennai",
+    "sector": "Banking & Finance",
+    "skills": ["Documentation", "Compliance", "Communication"]
+  },
+  {
+    "id": 34,
+    "title": "Equity Research Intern",
+    "location": "Mumbai",
+    "sector": "Banking & Finance",
+    "skills": ["Equity Valuation", "Report Writing", "Stock Analysis"]
+  },
+  {
+    "id": 35,
+    "title": "Bank Operations Intern",
+    "location": "Jaipur",
+    "sector": "Banking & Finance",
+    "skills": ["Banking Processes", "Customer Service", "Compliance"]
+  },
+  {
+    "id": 36,
+    "title": "Derivatives Intern",
+    "location": "Bengaluru",
+    "sector": "Banking & Finance",
+    "skills": ["Options", "Futures", "Quantitative Analysis"]
+  },
+  {
+    "id": 37,
+    "title": "Audit Intern",
+    "location": "Pune",
+    "sector": "Banking & Finance",
+    "skills": ["Auditing", "Excel", "Compliance Checks"]
+  },
+  {
+    "id": 38,
+    "title": "Private Banking Intern",
+    "location": "Delhi",
+    "sector": "Banking & Finance",
+    "skills": ["Portfolio Advisory", "Client Interaction", "Mutual Funds"]
+  },
+  {
+    "id": 39,
+    "title": "Microfinance Intern",
+    "location": "Lucknow",
+    "sector": "Banking & Finance",
+    "skills": ["Community Outreach", "Loan Assessment", "Excel"]
+  },
+  {
+    "id": 40,
+    "title": "Forex Intern",
+    "location": "Mumbai",
+    "sector": "Banking & Finance",
+    "skills": ["Foreign Exchange", "Currency Hedging", "Financial Markets"]
+  },
+
+  {
+    "id": 41,
+    "title": "Petroleum Engineer Intern",
+    "location": "Ahmedabad",
+    "sector": "Oil, Gas & Energy",
+    "skills": ["Petroleum Engineering Basics", "Drilling", "Safety"]
+  },
+  {
+    "id": 42,
+    "title": "Energy Analyst Intern",
+    "location": "Mumbai",
+    "sector": "Oil, Gas & Energy",
+    "skills": ["Data Analysis", "Excel", "Energy Market Knowledge"]
+  },
+  {
+    "id": 43,
+    "title": "Operations Support Intern",
+    "location": "Kochi",
+    "sector": "Oil, Gas & Energy",
+    "skills": ["Operations Monitoring", "Reporting", "Compliance"]
+  },
+  {
+    "id": 44,
+    "title": "Environmental Safety Intern",
+    "location": "Delhi",
+    "sector": "Oil, Gas & Energy",
+    "skills": ["Safety Standards", "Environmental Laws", "Auditing"]
+  },
+  {
+    "id": 45,
+    "title": "Energy Management Intern",
+    "location": "Chennai",
+    "sector": "Oil, Gas & Energy",
+    "skills": ["Energy Systems", "Sustainability", "Project Management"]
+  },
+  {
+    "id": 46,
+    "title": "Renewable Energy Intern",
+    "location": "Jaipur",
+    "sector": "Oil, Gas & Energy",
+    "skills": ["Solar Systems", "Wind Energy", "Data Collection"]
+  },
+  {
+    "id": 47,
+    "title": "Pipeline Engineering Intern",
+    "location": "Hyderabad",
+    "sector": "Oil, Gas & Energy",
+    "skills": ["Pipeline Design", "CAD", "Safety Protocols"]
+  },
+  {
+    "id": 48,
+    "title": "Energy Audit Intern",
+    "location": "Pune",
+    "sector": "Oil, Gas & Energy",
+    "skills": ["Audit Techniques", "Data Analysis", "Reporting"]
+  },
+  {
+    "id": 49,
+    "title": "Drilling Operations Intern",
+    "location": "Mumbai",
+    "sector": "Oil, Gas & Energy",
+    "skills": ["Drilling Methods", "Team Support", "Field Safety"]
+  },
+  {
+    "id": 50,
+    "title": "Health & Safety Intern",
+    "location": "Kochi",
+    "sector": "Oil, Gas & Energy",
+    "skills": ["Safety Regulations", "Emergency Handling", "Documentation"]
+  },
+  {
+    "id": 51,
+    "title": "Energy Economics Intern",
+    "location": "Delhi",
+    "sector": "Oil, Gas & Energy",
+    "skills": ["Economic Modelling", "Energy Policy", "Excel"]
+  },
+  {
+    "id": 52,
+    "title": "Refinery Operations Intern",
+    "location": "Vadodara",
+    "sector": "Oil, Gas & Energy",
+    "skills": ["Refinery Basics", "Process Control", "Safety Protocols"]
+  },
+  {
+    "id": 53,
+    "title": "Quality Assurance Intern",
+    "location": "Ahmedabad",
+    "sector": "Oil, Gas & Energy",
+    "skills": ["Quality Checks", "ISO Standards", "Safety"]
+  },
+  {
+    "id": 54,
+    "title": "Energy Research Intern",
+    "location": "Chennai",
+    "sector": "Oil, Gas & Energy",
+    "skills": ["Research", "Data Collection", "Policy Analysis"]
+  },
+  {
+    "id": 55,
+    "title": "Sustainability Intern",
+    "location": "Mumbai",
+    "sector": "Oil, Gas & Energy",
+    "skills": ["Sustainability", "ESG Reporting", "Environmental Analysis"]
+  },
+  {
+    "id": 56,
+    "title": "Gas Plant Intern",
+    "location": "Hyderabad",
+    "sector": "Oil, Gas & Energy",
+    "skills": ["Plant Operations", "Team Coordination", "Safety"]
+  },
+  {
+    "id": 57,
+    "title": "Offshore Engineering Intern",
+    "location": "Chennai",
+    "sector": "Oil, Gas & Energy",
+    "skills": ["Offshore Systems", "Safety", "CAD"]
+  },
+  {
+    "id": 58,
+    "title": "Project Management Intern",
+    "location": "Delhi",
+    "sector": "Oil, Gas & Energy",
+    "skills": ["Project Planning", "MS Project", "Team Collaboration"]
+  },
+  {
+    "id": 59,
+    "title": "Energy Policy Intern",
+    "location": "Bengaluru",
+    "sector": "Oil, Gas & Energy",
+    "skills": ["Policy Research", "Documentation", "Energy Economics"]
+  },
+  {
+    "id": 60,
+    "title": "Energy Law Intern",
+    "location": "Mumbai",
+    "sector": "Oil, Gas & Energy",
+    "skills": ["Energy Regulations", "Documentation", "Legal Research"]
+  },
+  
+  {
+    "id": 61,
+    "title": "Brand Management Intern",
+    "location": "Mumbai",
+    "sector": "FMCG",
+    "skills": ["Brand Strategy", "Marketing", "Market Research"]
+  },
+  {
+    "id": 62,
+    "title": "Supply Chain Intern",
+    "location": "Bengaluru",
+    "sector": "FMCG",
+    "skills": ["Logistics", "Inventory Management", "Excel"]
+  },
+  {
+    "id": 63,
+    "title": "Marketing Intern",
+    "location": "Delhi",
+    "sector": "FMCG",
+    "skills": ["Digital Marketing", "Content Creation", "SEO"]
+  },
+  {
+    "id": 64,
+    "title": "Product Development Intern",
+    "location": "Hyderabad",
+    "sector": "FMCG",
+    "skills": ["Product Lifecycle", "Market Trends", "Packaging"]
+  },
+  {
+    "id": 65,
+    "title": "Retail Operations Intern",
+    "location": "Chennai",
+    "sector": "FMCG",
+    "skills": ["Store Operations", "Customer Service", "Sales Strategies"]
+  },
+  {
+    "id": 66,
+    "title": "E-commerce Intern",
+    "location": "Pune",
+    "sector": "FMCG",
+    "skills": ["E-commerce Platforms", "SEO", "Digital Ads"]
+  },
+  {
+    "id": 67,
+    "title": "Advertising Intern",
+    "location": "Kolkata",
+    "sector": "FMCG",
+    "skills": ["Copywriting", "Campaign Planning", "Creativity"]
+  },
+  {
+    "id": 68,
+    "title": "Customer Insights Intern",
+    "location": "Jaipur",
+    "sector": "FMCG",
+    "skills": ["Consumer Behavior", "Data Analysis", "Survey Tools"]
+  },
+  {
+    "id": 69,
+    "title": "Sales Strategy Intern",
+    "location": "Ahmedabad",
+    "sector": "FMCG",
+    "skills": ["Sales Planning", "Negotiation", "CRM Tools"]
+  },
+  {
+    "id": 70,
+    "title": "Packaging Design Intern",
+    "location": "Delhi",
+    "sector": "FMCG",
+    "skills": ["Graphic Design", "Creative Thinking", "Photoshop"]
+  },
+  {
+    "id": 71,
+    "title": "Market Research Intern",
+    "location": "Lucknow",
+    "sector": "FMCG",
+    "skills": ["Data Collection", "Statistical Tools", "Consumer Insights"]
+  },
+  {
+    "id": 72,
+    "title": "Digital Marketing Intern",
+    "location": "Indore",
+    "sector": "FMCG",
+    "skills": ["Social Media", "Google Ads", "Email Marketing"]
+  },
+  {
+    "id": 73,
+    "title": "Distribution Management Intern",
+    "location": "Surat",
+    "sector": "FMCG",
+    "skills": ["Distribution Planning", "Logistics", "Excel"]
+  },
+  {
+    "id": 74,
+    "title": "Retail Analytics Intern",
+    "location": "Delhi",
+    "sector": "FMCG",
+    "skills": ["PowerBI", "SQL", "Sales Analytics"]
+  },
+  {
+    "id": 75,
+    "title": "Content Marketing Intern",
+    "location": "Mumbai",
+    "sector": "FMCG",
+    "skills": ["Content Writing", "SEO", "Storytelling"]
+  },
+  {
+    "id": 76,
+    "title": "Supply Planning Intern",
+    "location": "Bengaluru",
+    "sector": "FMCG",
+    "skills": ["Demand Forecasting", "SAP", "Excel"]
+  },
+  {
+    "id": 77,
+    "title": "PR Intern",
+    "location": "Kolkata",
+    "sector": "FMCG",
+    "skills": ["Communication", "Media Relations", "Event Planning"]
+  },
+  {
+    "id": 78,
+    "title": "Finance Intern",
+    "location": "Chennai",
+    "sector": "FMCG",
+    "skills": ["Accounting", "Financial Analysis", "Excel"]
+  },
+  {
+    "id": 79,
+    "title": "Innovation Intern",
+    "location": "Hyderabad",
+    "sector": "FMCG",
+    "skills": ["Idea Generation", "Market Trends", "Prototyping"]
+  },
+  {
+    "id": 80,
+    "title": "Consumer Survey Intern",
+    "location": "Pune",
+    "sector": "FMCG",
+    "skills": ["Survey Design", "Data Analysis", "Consumer Insights"]
+  },
+
+  {
+    "id": 81,
+    "title": "Network Engineering Intern",
+    "location": "Gurgaon",
+    "sector": "Telecom",
+    "skills": ["Routing", "Switching", "Network Security"]
+  },
+  {
+    "id": 82,
+    "title": "Customer Support Intern",
+    "location": "Noida",
+    "sector": "Telecom",
+    "skills": ["Communication", "CRM Tools", "Problem Solving"]
+  },
+  {
+    "id": 83,
+    "title": "Sales Intern",
+    "location": "Mumbai",
+    "sector": "Telecom",
+    "skills": ["Sales Strategies", "Negotiation", "CRM"]
+  },
+  {
+    "id": 84,
+    "title": "RF Engineer Intern",
+    "location": "Hyderabad",
+    "sector": "Telecom",
+    "skills": ["RF Systems", "Signal Processing", "Testing"]
+  },
+  {
+    "id": 85,
+    "title": "Product Management Intern",
+    "location": "Bengaluru",
+    "sector": "Telecom",
+    "skills": ["Product Roadmap", "Communication", "Market Analysis"]
+  },
+  {
+    "id": 86,
+    "title": "Telecom Infrastructure Intern",
+    "location": "Chennai",
+    "sector": "Telecom",
+    "skills": ["Infrastructure Planning", "Documentation", "CAD"]
+  },
+  {
+    "id": 87,
+    "title": "Technical Support Intern",
+    "location": "Delhi",
+    "sector": "Telecom",
+    "skills": ["Troubleshooting", "Networking", "Linux"]
+  },
+  {
+    "id": 88,
+    "title": "Business Analyst Intern",
+    "location": "Pune",
+    "sector": "Telecom",
+    "skills": ["Requirement Gathering", "Excel", "Communication"]
+  },
+  {
+    "id": 89,
+    "title": "VoIP Intern",
+    "location": "Ahmedabad",
+    "sector": "Telecom",
+    "skills": ["VoIP Technologies", "Networking", "SIP Protocol"]
+  },
+  {
+    "id": 90,
+    "title": "Telecom Project Intern",
+    "location": "Delhi",
+    "sector": "Telecom",
+    "skills": ["Project Management", "MS Project", "Documentation"]
+  },
+  {
+    "id": 91,
+    "title": "Service Quality Intern",
+    "location": "Jaipur",
+    "sector": "Telecom",
+    "skills": ["Testing", "Quality Standards", "Documentation"]
+  },
+  {
+    "id": 92,
+    "title": "Switching & Routing Intern",
+    "location": "Bengaluru",
+    "sector": "Telecom",
+    "skills": ["Switching", "Routing", "Network Protocols"]
+  },
+  {
+    "id": 93,
+    "title": "Wireless Communication Intern",
+    "location": "Lucknow",
+    "sector": "Telecom",
+    "skills": ["Wireless Systems", "4G/5G Basics", "Testing"]
+  },
+  {
+    "id": 94,
+    "title": "Field Engineer Intern",
+    "location": "Kolkata",
+    "sector": "Telecom",
+    "skills": ["Field Operations", "Technical Support", "Communication"]
+  },
+  {
+    "id": 95,
+    "title": "CRM Intern",
+    "location": "Delhi",
+    "sector": "Telecom",
+    "skills": ["CRM Software", "Customer Relations", "Data Entry"]
+  },
+  {
+    "id": 96,
+    "title": "Telecom Data Analyst Intern",
+    "location": "Mumbai",
+    "sector": "Telecom",
+    "skills": ["SQL", "Excel", "Data Visualization"]
+  },
+  {
+    "id": 97,
+    "title": "Team Collaboration Intern",
+    "location": "Pune",
+    "sector": "Telecom",
+    "skills": ["Teamwork", "Documentation", "MS Office"]
+  },
+  {
+    "id": 98,
+    "title": "Network Security Intern",
+    "location": "Hyderabad",
+    "sector": "Telecom",
+    "skills": ["Firewalls", "Cybersecurity", "VPN"]
+  },
+  {
+    "id": 99,
+    "title": "Testing Intern",
+    "location": "Bengaluru",
+    "sector": "Telecom",
+    "skills": ["Testing", "Automation", "Quality Assurance"]
+  },
+  {
+    "id": 100,
+    "title": "Telecom Operations Intern",
+    "location": "Chennai",
+    "sector": "Telecom",
+    "skills": ["Operations Support", "Data Entry", "Reporting"]
+  },
+  
+  {
+    "id": 101,
+    "title": "Civil Engineering Intern",
+    "location": "Delhi",
+    "sector": "Infrastructure & Construction",
+    "skills": ["AutoCAD", "Structural Analysis", "Project Planning"]
+  },
+  {
+    "id": 102,
+    "title": "Site Supervisor Intern",
+    "location": "Mumbai",
+    "sector": "Infrastructure & Construction",
+    "skills": ["Construction Management", "Safety Compliance", "MS Project"]
+  },
+  {
+    "id": 103,
+    "title": "Urban Planning Intern",
+    "location": "Pune",
+    "sector": "Infrastructure & Construction",
+    "skills": ["GIS", "AutoCAD", "Urban Design"]
+  },
+  {
+    "id": 104,
+    "title": "Quantity Surveying Intern",
+    "location": "Hyderabad",
+    "sector": "Infrastructure & Construction",
+    "skills": ["Cost Estimation", "MS Excel", "Contracts Management"]
+  },
+  {
+    "id": 105,
+    "title": "Structural Design Intern",
+    "location": "Chennai",
+    "sector": "Infrastructure & Construction",
+    "skills": ["STAAD Pro", "AutoCAD", "Structural Analysis"]
+  },
+  {
+    "id": 106,
+    "title": "Construction Management Intern",
+    "location": "Ahmedabad",
+    "sector": "Infrastructure & Construction",
+    "skills": ["Project Scheduling", "Primavera", "Leadership"]
+  },
+  {
+    "id": 107,
+    "title": "Sustainability Intern",
+    "location": "Bangalore",
+    "sector": "Infrastructure & Construction",
+    "skills": ["Green Building", "LEED Certification", "Energy Efficiency"]
+  },
+  {
+    "id": 108,
+    "title": "Highway Engineering Intern",
+    "location": "Jaipur",
+    "sector": "Infrastructure & Construction",
+    "skills": ["Transportation Planning", "AutoCAD Civil 3D", "Surveying"]
+  },
+  {
+    "id": 109,
+    "title": "Bridge Design Intern",
+    "location": "Kolkata",
+    "sector": "Infrastructure & Construction",
+    "skills": ["Structural Engineering", "Bridge Design", "AutoCAD"]
+  },
+  {
+    "id": 110,
+    "title": "Interior Design Intern",
+    "location": "Noida",
+    "sector": "Infrastructure & Construction",
+    "skills": ["3ds Max", "SketchUp", "Space Planning"]
+  },
+  {
+    "id": 111,
+    "title": "Architecture Intern",
+    "location": "Gurgaon",
+    "sector": "Infrastructure & Construction",
+    "skills": ["AutoCAD", "Revit", "Design Thinking"]
+  },
+  {
+    "id": 112,
+    "title": "Water Resource Engineering Intern",
+    "location": "Nagpur",
+    "sector": "Infrastructure & Construction",
+    "skills": ["Hydrology", "AutoCAD Civil", "Environmental Engineering"]
+  },
+  {
+    "id": 113,
+    "title": "Project Coordinator Intern",
+    "location": "Lucknow",
+    "sector": "Infrastructure & Construction",
+    "skills": ["Project Management", "Team Coordination", "Reports"]
+  },
+  {
+    "id": 114,
+    "title": "Surveying Intern",
+    "location": "Indore",
+    "sector": "Infrastructure & Construction",
+    "skills": ["Total Station", "GIS Mapping", "Land Surveying"]
+  },
+  {
+    "id": 115,
+    "title": "Real Estate Development Intern",
+    "location": "Pune",
+    "sector": "Infrastructure & Construction",
+    "skills": ["Market Research", "Feasibility Studies", "Excel"]
+  },
+  {
+    "id": 116,
+    "title": "Building Information Modeling Intern",
+    "location": "Bangalore",
+    "sector": "Infrastructure & Construction",
+    "skills": ["Revit", "Navisworks", "BIM Management"]
+  },
+  {
+    "id": 117,
+    "title": "Construction Safety Intern",
+    "location": "Delhi",
+    "sector": "Infrastructure & Construction",
+    "skills": ["Safety Training", "PPE Compliance", "Risk Assessment"]
+  },
+  {
+    "id": 118,
+    "title": "Geotechnical Intern",
+    "location": "Hyderabad",
+    "sector": "Infrastructure & Construction",
+    "skills": ["Soil Testing", "Geotechnical Analysis", "Lab Reports"]
+  },
+  {
+    "id": 119,
+    "title": "Transport Planning Intern",
+    "location": "Chennai",
+    "sector": "Infrastructure & Construction",
+    "skills": ["GIS", "Traffic Flow Analysis", "Urban Transport Planning"]
+  },
+  {
+    "id": 120,
+    "title": "Environmental Engineering Intern",
+    "location": "Kochi",
+    "sector": "Infrastructure & Construction",
+    "skills": ["Wastewater Management", "Environmental Safety", "Pollution Control"]
+  },
+  {
+    "id": 121,
+    "title": "Automotive Design Intern",
+    "location": "Pune",
+    "sector": "Automotive",
+    "skills": ["CATIA", "SolidWorks", "3D Modeling"]
+  },
+  {
+    "id": 122,
+    "title": "Mechanical Intern",
+    "location": "Chennai",
+    "sector": "Automotive",
+    "skills": ["Thermodynamics", "AutoCAD", "Prototyping"]
+  },
+  {
+    "id": 123,
+    "title": "Electric Vehicle Intern",
+    "location": "Bangalore",
+    "sector": "Automotive",
+    "skills": ["Battery Management", "Power Electronics", "EV Design"]
+  },
+  {
+    "id": 124,
+    "title": "Manufacturing Intern",
+    "location": "Delhi",
+    "sector": "Automotive",
+    "skills": ["Lean Manufacturing", "Six Sigma", "Quality Control"]
+  },
+  {
+    "id": 125,
+    "title": "Automobile Testing Intern",
+    "location": "Ahmedabad",
+    "sector": "Automotive",
+    "skills": ["Testing Procedures", "Automobile Systems", "Diagnostics"]
+  },
+  {
+    "id": 126,
+    "title": "CAD Intern",
+    "location": "Hyderabad",
+    "sector": "Automotive",
+    "skills": ["AutoCAD", "SolidWorks", "Product Design"]
+  },
+  {
+    "id": 127,
+    "title": "R&D Intern",
+    "location": "Gurgaon",
+    "sector": "Automotive",
+    "skills": ["Automotive Research", "Innovation", "Prototype Development"]
+  },
+  {
+    "id": 128,
+    "title": "Quality Assurance Intern",
+    "location": "Noida",
+    "sector": "Automotive",
+    "skills": ["QA Testing", "ISO Standards", "Product Inspection"]
+  },
+  {
+    "id": 129,
+    "title": "Supply Chain Intern",
+    "location": "Mumbai",
+    "sector": "Automotive",
+    "skills": ["Logistics", "ERP Systems", "Vendor Management"]
+  },
+  {
+    "id": 130,
+    "title": "Service Engineering Intern",
+    "location": "Chandigarh",
+    "sector": "Automotive",
+    "skills": ["Customer Service", "Diagnostics", "Vehicle Maintenance"]
+  },
+  {
+    "id": 131,
+    "title": "Product Development Intern",
+    "location": "Jaipur",
+    "sector": "Automotive",
+    "skills": ["Prototype Testing", "Product Design", "R&D"]
+  },
+  {
+    "id": 132,
+    "title": "Vehicle Dynamics Intern",
+    "location": "Kolkata",
+    "sector": "Automotive",
+    "skills": ["Suspension Design", "Simulation", "Dynamics Testing"]
+  },
+  {
+    "id": 133,
+    "title": "Two-Wheeler Design Intern",
+    "location": "Pune",
+    "sector": "Automotive",
+    "skills": ["Design Sketching", "CAD", "Prototype Development"]
+  },
+  {
+    "id": 134,
+    "title": "Engine Testing Intern",
+    "location": "Lucknow",
+    "sector": "Automotive",
+    "skills": ["Engine Simulation", "Testing Equipment", "Thermal Analysis"]
+  },
+  {
+    "id": 135,
+    "title": "Embedded Systems Intern",
+    "location": "Bangalore",
+    "sector": "Automotive",
+    "skills": ["Embedded C", "IoT", "ECU Programming"]
+  },
+  {
+    "id": 136,
+    "title": "Automobile Marketing Intern",
+    "location": "Delhi",
+    "sector": "Automotive",
+    "skills": ["Digital Marketing", "Market Research", "Brand Strategy"]
+  },
+  {
+    "id": 137,
+    "title": "Spare Parts Management Intern",
+    "location": "Nagpur",
+    "sector": "Automotive",
+    "skills": ["Inventory Management", "SAP", "Supply Chain"]
+  },
+  {
+    "id": 138,
+    "title": "Production Intern",
+    "location": "Indore",
+    "sector": "Automotive",
+    "skills": ["Production Planning", "Assembly Line", "Automation"]
+  },
+  {
+    "id": 139,
+    "title": "Safety Engineering Intern",
+    "location": "Hyderabad",
+    "sector": "Automotive",
+    "skills": ["Crash Testing", "Vehicle Safety", "Simulation Tools"]
+  },
+  {
+    "id": 140,
+    "title": "Connected Cars Intern",
+    "location": "Bangalore",
+    "sector": "Automotive",
+    "skills": ["IoT", "Telematics", "Cloud Systems"]
+  }
+]
+
+
+
