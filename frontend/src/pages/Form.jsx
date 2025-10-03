@@ -42,7 +42,7 @@ function Form() {
         <h2 className="text-4xl font-extrabold mb-10 text-center text-blue-700 tracking-wide">
           Candidate Profile Form
         </h2>
-
+ 
         <form onSubmit={handleSubmit} className="space-y-12">
           {/* ============ Personal Information ============ */}
           <div>
