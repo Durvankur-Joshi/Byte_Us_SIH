@@ -13,7 +13,7 @@ function Form() {
     // Education
     collegeName: "",
     education: "",
-    cgpa: "",
+    lastYearMarks: "", // changed from cgpa → lastYearMarks
 
     // Skills
     technicalSkills: "",
@@ -157,21 +157,25 @@ function Form() {
                   <option value="">-- Select Education --</option>
                   <option value="B.E">B.E</option>
                   <option value="B.Tech">B.Tech</option>
-                  <option value="BCA">BCA</option>
-                  <option value="M.E">M.E</option>
-                  <option value="M.Tech">M.Tech</option>
-                  <option value="MCA">MCA</option>
+                  <option value="B.ED">B.ED</option>
+                  <option value="BBA">BBA</option>
+                  <option value="B.COM">B.COM</option>
+                  <option value="M.SC">M.SC</option>
+                  <option value="B.SC">B.SC</option>
+                  <option value="BA">BA</option>
+                  <option value="MBBS">MBBS</option>
+                  <option value="M.A">M.A</option>
                   <option value="MBA">MBA</option>
                 </select>
               </div>
 
               <div className="flex flex-col">
-                <label className="font-medium mb-1">Last Year CGPA</label>
+                <label className="font-medium mb-1">Last Year Marks</label>
                 <input
                   type="number"
-                  name="cgpa"
+                  name="lastYearMarks"
                   step="0.01"
-                  value={formData.cgpa}
+                  value={formData.lastYearMarks}
                   onChange={handleChange}
                   className="border rounded-lg px-3 py-2 focus:ring-2 focus:ring-green-400"
                 />
